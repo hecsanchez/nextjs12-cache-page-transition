@@ -1,0 +1,28 @@
+.container {
+  border-bottom: 1px solid #ebebeb;
+  cursor: pointer;
+  transition: all .3s ease;
+
+  &:hover {
+    background: #ebebeb;
+  }
+
+  .link {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+
+    &:visited, &:focus {
+      color: black;
+    }
+
+    .readMore {
+      font-size: 14px;
+
+    }
+  }
+}
